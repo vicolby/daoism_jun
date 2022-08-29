@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/gimmefear/Junior-Smart-Contracts-Engineer-Technical-Challenge#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.7.0",
+    "@openzeppelin/contracts": "^4.7.3",
     "ethers": "^5.6.9",
     "hardhat": "^2.10.0"
   },
