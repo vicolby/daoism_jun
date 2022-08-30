@@ -1,14 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-contract Storage{
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract Storage is Ownable {
     uint counter;
 
-    function decrease() external{
+    function sub() external onlyOwner {
         counter --;
     }
 
-    function increase() external{
+    function add() external onlyOwner {
         counter ++;
     }
 

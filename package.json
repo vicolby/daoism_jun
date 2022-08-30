@@ -23,6 +23,17 @@
     "hardhat": "^2.10.0"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^1.0.2"
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.14",
+    "hardhat-deploy": "^0.11.12",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0",
+    "typescript": "^4.8.2"
   }
 }
