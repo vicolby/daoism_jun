@@ -9,7 +9,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment){
   const { deploy } = deployments;
   const { deployer } = await getNamedAccounts();
   
-  const governToken = await deploy("GovernToken", {
+  const governToken = await deploy("Token", {
     from: deployer,
     log: true
   });

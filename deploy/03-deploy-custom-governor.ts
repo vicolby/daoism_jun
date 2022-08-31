@@ -5,10 +5,10 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment){
     const { deployments, getNamedAccounts} = hre;
     const { deploy, get } = deployments;
     const { deployer } = await getNamedAccounts();
-    const goverToken = await get("GovernToken");
+    const goverToken = await get("Token");
     const timelock = await get("Timelock");
 
-    await deploy("CustomGovernor", {
+    await deploy("MyGovernor", {
         from: deployer,
         log: true,
         args: [
